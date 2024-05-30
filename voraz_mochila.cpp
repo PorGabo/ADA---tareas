@@ -67,6 +67,11 @@ int main()
     for (int i = 0; i < n; i++)
         cout << X[i] << " ";
     cout << "\n\n";
+
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+        sum = sum + b[i]*X[i];
+    cout << "beneficio total: " << sum << "\n";
     
     return 0;
 }
