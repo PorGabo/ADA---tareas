@@ -12,16 +12,12 @@ using namespace std;
 struct Nodo 
 {
     int nivel, peso, beneficio;
-    
-    Nodo *izq, *der;
 
     Nodo(int nivel, int beneficio, int peso)
     {
         this->nivel = nivel;
         this->beneficio = beneficio;
         this->peso = peso;
-        this->izq = nullptr;
-        this->der = nullptr;
     }
 };
 
